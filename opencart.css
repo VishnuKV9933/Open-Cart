@@ -1,0 +1,772 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+}
+.header{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+ width: 100%;
+ height: 80px;
+}
+.h1{
+    position: relative;
+     
+    float: left;
+    width:20%;
+    height: 100%;
+
+}
+#logo{
+    position: absolute;
+    top: 25%;
+    left: 35%;    
+    height: 35px;
+}
+.hoptions{
+
+    font-size: 1px;
+}
+.h2{position: relative;
+
+    display: flex;
+    align-items: center;
+    float: left;
+    width:45%;
+    height: 100%;
+}
+.h1a{
+    position: absolute;
+    left: 13%;
+    position: absolute;
+    
+    width: 15%;
+}
+.h1b{
+    position: absolute;
+    left: 28%;
+    width: 10%;
+}
+.h1c{
+    position: absolute;
+    left: 38%;
+    width: 20%;
+}
+.h1d{
+    position: absolute;
+    left: 58%;
+    width: 10%;
+    
+}
+.h1e{
+    position: absolute;
+    left: 70%;
+    width: 15%;
+}
+.h1f{
+    position: absolute;
+    left: 88%;
+    width: 12%;
+}
+.h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+.button-top{ 
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    width: 100px;
+    height: 35px;
+    
+}
+.button-top:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.h3a{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 12px;
+}
+.h3a:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+.button-top.p{
+    font-size: 2px;
+}
+
+
+/*----------------part2-----------*/
+
+.part2main{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #0080c3;
+}
+.part2main img{
+   height: 520px;
+   position: absolute;
+   left: 50.1%;
+   top: 6.2%
+}
+.part2d1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+width: 40%;
+height: 50%;
+}
+.part2main h1{
+    position: absolute;
+    top: 33%;
+    left: 8%;  
+    font-family: sans-serif;
+    font-size: 39px;
+    color: white;
+}
+.part2main h2{
+    position: absolute;
+    top: 55%;
+    left: 8%;  
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.part2button1{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    width: 230px;
+    height: 50px;
+    background-color: rgb(89, 179, 44);
+    color: white;
+    border: none;
+    border-radius: 2%;
+    font-size: 17px;
+}
+.part2button1:hover{
+    background-color: rgb(39, 154, 10);
+}
+.part2button2{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    width: 230px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 2%;
+    font-size: 17px;
+}
+.part2button2:hover{
+    color: black;
+    background-color:white
+}
+/*-----------------------part3-------------*/
+.part3main{
+    position: relative;
+    margin-top: 35px;
+    width: 100%;
+    height: 520px;
+   
+}
+.part3div1{
+    position: absolute;
+    border-right: solid thin rgb(235, 217, 235);
+
+    top: 40%;
+    left: 6%;
+   width: 22%;
+   height: 50%;
+   border-right: solid thin rgb(235, 217, 235);
+}
+.part3div2{
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    width: 22%;
+    height: 50%;
+   
+    border-right: solid thin rgb(235, 217, 235);
+ }
+ .part3div3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 22%;
+    height: 50%;
+   
+    border-right: solid thin rgb(235, 217, 235);
+ }
+ .part3div4{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    width: 22%;
+    height: 50%;
+    
+ }
+ .part3main h1{
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    font: bolder;
+
+ }
+ .part3main h2{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font: bolder;
+
+ }
+ .part3image1{
+    position: absolute;
+    left: 7%;
+    top: 42%;
+ }
+ .part3image2{
+    position: absolute;
+    left: 29%;
+    top: 43%;
+ }.part3image3{
+    position: absolute;
+    left: 52%;
+    top: 46%;
+ }
+.part3image4{
+    position: absolute;
+    left: 74%;
+    top: 45%;
+ }
+ .part3main h3{
+    position: absolute;
+    top: 61%;
+    left: 8%;  
+    font-family: sans-serif;
+    font-size: 18px;  
+ }
+ .part3main h4{
+    position: absolute;
+    top: 61%;
+    left: 29.5%;  
+    font-family: sans-serif;
+    font-size: 18px;  
+ }
+ .part3main h5{
+    position: absolute;
+    top: 61%;
+    left: 52.5%;  
+    font-family: sans-serif;
+    font-size: 18px;  
+ }
+ .part3main h6{
+    position: absolute;
+    top: 61%;
+    left: 74%;  
+    font-family: sans-serif;
+    font-size: 18px;  
+ }
+#part3p1{
+    position: absolute;
+    top: 68%;
+    left: 8%;
+    color: #4b525d;
+    font-size: 200;
+}
+#part3p2{
+    position: absolute;
+    top: 68%;
+    left: 29.5%;
+    color: #4b525d;
+    font-size: 200;
+}
+#part3p3{
+    position: absolute;
+    top: 68%;
+    left: 52.5%;
+    color: #4b525d;
+    font-size: 200;
+}
+#part3p4{
+    position: absolute;
+    top: 68%;
+    left: 74%;
+    color: #4b525d;
+    font-size: 200;
+}
+/*---------------part4----------*/
+.part4main{
+    position: relative;
+    background-color: #242d37;
+    width: 100%;
+    height: 340px;
+}
+.part4main h1{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.part4main h2{
+    position: absolute;
+    top: 29%;
+    left: 17%;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.part4image1{
+    position: absolute;
+    left: 12%;
+    top: 59%;
+ }
+ .part4image2{
+    position: absolute;
+    left: 30%;
+    top: 59%;
+ }
+ .part4image3{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+ }
+ .part4image4{
+    position: absolute;
+    left: 64%;
+    top: 58%;
+ }
+ .part4image5{
+    position: absolute;
+    left: 76%;
+    top: 57%;
+ }
+ .part4image1:hover{
+    cursor: pointer;
+ }
+ .part4image2:hover{
+    cursor: pointer;
+ }
+ .part4image3:hover{
+    cursor: pointer;
+ }
+ .part4image4:hover{
+    cursor: pointer;
+ }
+ .part4image5:hover{
+    cursor: pointer;
+ }
+ /*-----------------------part5----------*/
+.part5main{
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+.part5image1{
+    position: absolute;
+    left: 50%;
+}
+.part5main h1{
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+font-size: 40;
+font-weight: 700;
+}
+.p5{ 
+    position: absolute;
+    top: 40%;
+    left: 10%;
+font-size: 30;
+font-weight: 300;
+}
+
+.part5button{
+position: absolute;
+left: 10%;
+top: 75%;
+width: 20%;
+height: 9%;
+background-color: #41ade8;
+border: none;
+font-size: 16px;
+color: white;
+border-radius: 4px;
+}
+.part5button:hover{
+    background-color: #0080c3;
+}
+/*-------------part6-----------*/
+.part6main{
+    position: relative;
+    width: 100%;
+    height:600px;
+    background-color: rgb(248, 249, 250);
+}
+.part6main h1{
+    position: absolute;
+    left: 20%;
+    top: 14%;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.part6main h2{
+    position: absolute;
+    left: 15%;
+    top: 23%;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.part6image1{
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+.part6button{
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    width: 10%;
+    height: 8%;
+}
+/*------------------part7-------------------*/
+.part7main{
+    position: relative;
+    width: 100%;
+    height: 550px;  
+}
+.part7div1{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    width: 28%;
+    height: 50%;
+    border-right: solid thin rgb(235, 217, 235);
+    border-left: solid thin rgb(235, 217, 235);
+    
+}
+.part7image1{
+    position: absolute;
+    left: 14%;
+    top: 30%;
+}
+.part7image2{
+    position: absolute;
+    left: 41%;
+    top: 30%;
+}
+.part7image3{
+    position: absolute;
+    left: 68%;
+    top: 30%;
+}
+.part7main h1{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part7main h2{
+    position: absolute;
+    left: 34%;
+    font-size: 28px;
+    top: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------------part8-----------*/
+
+.part8main{
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+.part8div1{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 50%;
+    height: 80%;
+    border-right: solid thin rgb(235, 217, 235);
+    
+}
+.part8image1{
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+.part8image2{
+    position: absolute;
+    left: 65%;
+    top: 9%;
+}
+.part8main h1{
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part8main h2{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part8p1{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part8p2{
+    position: absolute;
+    top: 50%;
+    left:55%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part8button1{
+    position: absolute;
+    left: 23%;
+    top: 75%;
+    width: 10%;
+    height: 9%;
+    background-color: #41ade8;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+}
+.part8button2{
+    position: absolute;
+    right: 23%;
+    top: 75%;
+    width: 10%;
+    height: 9%;
+    background-color: #41ade8;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+}
+.part8button1:hover{
+    background-color: #065580;
+}
+.part8button2:hover{
+    background-color: #065580;
+}
+/*----------------part9-----------*/
+
+.part9main{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(236, 236, 237);;
+}
+.part9image1{
+    position: absolute;
+    left: 25%;
+    top:20%;
+}
+.part9image2{
+    position: absolute;
+    left: 43%;
+    top:20%;
+}
+.part9image3{
+    position: absolute;
+    left: 60%;
+    top:22%;
+}
+.part9main h2{
+    position: absolute;
+    left: 6%;
+    top: 26%;
+    font-size: 23px;
+    font-weight: 200;
+    color: rgb(114, 113, 113);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.part9main h3{
+    position: absolute;
+    right: 6%;
+    top: 26%;
+    font-size: 23px;
+    font-weight: 200;
+    color: rgb(114, 113, 113);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.part9image1:hover{
+    cursor: pointer;
+}
+.part9image2:hover{
+    cursor: pointer;
+}
+.part9image3:hover{
+    cursor: pointer;
+}
+.part9main h3:hover{
+    cursor: pointer;
+}
+/*----------------footer-----------*/
+
+.footer{position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #2e3136;
+    
+}
+.footerdiv1{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    height: 70%;
+    width: 15%;
+}
+.footerdiv2{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 70%;
+    width: 15%;
+}
+.footerdiv3{
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    height: 70%;
+    width: 15%;
+}
+.footerdiv4{
+    position: absolute;
+    top: 10%;
+    left: 53%;
+    height: 70%;
+    width: 15%;
+    
+}
+.footerdiv5{
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    height: 50%;
+    width: 30%;
+}
+.footersearchbar{
+    top: 10%;
+    left: 66%;
+    height: 20%;
+    width: 100%;
+    background-color:white
+}
+.footerp1{
+  
+     color: #6d737d;
+ }
+ .footerp2{
+    
+     font-size: 15px;
+     color: #eef3fa;
+ }
+ .footerp4{
+    
+    font-size: 15px;
+    color: #eef3fa;
+}
+ .footerp3{
+    
+    font-size: 15px;
+    color: #6d737d;
+}
+ .footerp2:hover{
+  color: #0080c3;
+}
+.footersearchbar input{
+    border: none;
+    width: 360px;
+    height: 40px;
+    background-color: #f9fafb;
+}
+.footer button{
+    width: 35px;
+    height: 35px;
+    background-color: #0080c3;
+    border: #0080c3;
+    border-radius: 3px;
+}
+.footer button:hover{
+background-color: #065580;
+    }
+  
+    .footerimage2{
+        position: absolute;
+        right: 25%;
+        top: 60%;
+    }
+    .footerimage2:hover{
+        cursor: pointer;
+    }
+    .footerp5{
+        position: absolute;
+        top: 63%;
+        right: 20%;
+        font-size: 15px;
+        color: #eef3fa;
+    }
+    .footerp6{
+        position: absolute;
+        top: 63%;
+        right: 14%;
+        font-size: 15px;
+        color: #eef3fa;
+    }
+    .footerp7{
+        position: absolute;
+        top: 63%;
+        right: 9%;
+        font-size: 15px;
+        color: #eef3fa;
+    }
+    .footerp5:hover{
+        color: #0080c3;
+      }
+      .footerp6:hover{
+        color: #0080c3;
+      }
+      .footerp7:hover{
+        color: #0080c3;
+      }
+/*----------------footer-----------*/
+
+
+
+
+
